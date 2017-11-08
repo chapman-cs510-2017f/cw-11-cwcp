@@ -1,6 +1,6 @@
 # CS510 CW 11
 
-**Author(s):** **CHANGEME**
+**Author(s):** **Chelsea Parlett-Pelleriti  and Chris Watkins**
 
 [![Build Status](https://travis-ci.org/chapman-cs510-2017f/cw-11-YOURNAME.svg?branch=master)](https://travis-ci.org/chapman-cs510-2017f/cw-11-YOURNAME)
 
@@ -30,7 +30,7 @@ Complete the following exercises, saving your solutions in the indicated files.
 
 Analyze in this section what you found useful about this assignment in your own words. Include any lingering questions or comments that you may have.
 
-**CHANGEME**
+**This project was  better than some of the others, I think we're getting better at C. We  still have no idea how to read C errors. I also don't get pointer syntax with \* and &. If you  could verbally go through that with us, I think it would help. I feel like we're getting to know the  structure of how data is stored which is helpful for python or any other programming language we use. **
 
 ## Honor Pledge
 
@@ -41,4 +41,4 @@ I pledge that all the work in this repository is my own with only the following 
 
 Signed,
 
-**YOURNAME**
+**Chelsea Parlett-Pelleriti and Chris Watkins**
