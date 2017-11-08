@@ -1,7 +1,7 @@
 // Define types as abstraction layer to protect against implementation changes
 typedef int SVALUE;
 // Define a default value representing a pop error
-SVALUE SVALUE_ERR = -9999;
+SVALUE SVALUE_ERR;
 
 // Use abstract types inside definition for robustness
 struct stack {

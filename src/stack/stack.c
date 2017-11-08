@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include "stack.h"
 
+SVALUE SVALUE_ERR = -9999;
 STACK new_stack() {
     STACK new = NULL;
     return new;
