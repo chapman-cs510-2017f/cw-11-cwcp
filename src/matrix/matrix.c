@@ -71,6 +71,10 @@ MVALUE mget(const MATRIX *m, const MINDEX row, const MINDEX col) {
   //create a pointer
   //go  to that  address
   //get value
+  MVALUE k;
+  k = *(m->mat + (m->cols * row) + col);
+  return k;
+
 }
 
 // Abstraction layer in case implementation of VALUE changes later
@@ -89,6 +93,13 @@ void print_matrix(const MATRIX *m) {
   /* 
    * CODE GOES HERE
    */
+  for (i =  0;i <= maxr ;i++){
+      for (j = 0, j <= maxc; j++){
+          printf("%Lf\t", mget(m,i,j) );
+      
+      }
+      printf("\n");
+  }
 }
 
 // Implementation for add_matrix goes below
