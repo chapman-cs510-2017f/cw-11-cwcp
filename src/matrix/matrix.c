@@ -122,7 +122,7 @@ MATRIX add_matrix(const MATRIX *m, const MATRIX *n){
         nn = mget(n, i, j);
         MVALUE aa;
         aa = mm + nn;
-        mset(&a,i,j, aa)
+        mset(&a,i,j, aa);
         }
 
     }
