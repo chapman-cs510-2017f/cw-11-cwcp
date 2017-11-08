@@ -50,12 +50,12 @@ void print_svalue(SVALUE a){
 }
 
 // Printer for stack
-void print_stack(STACK *s){
+void print_stack(STACK s){
     STACK temp;
     temp = s;
     while (temp != NULL){
     SVALUE a;
-    a = pop_stack(&temp)
+    a = pop_stack(&temp);
     print_svalue(a);
     }
 }
