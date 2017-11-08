@@ -68,6 +68,9 @@ MVALUE mget(const MATRIX *m, const MINDEX row, const MINDEX col) {
   /*
    * CODE GOES HERE
    */
+  //create a pointer
+  //go  to that  address
+  //get value
 }
 
 // Abstraction layer in case implementation of VALUE changes later
