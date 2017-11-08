@@ -43,3 +43,19 @@ SVALUE pop_stack(STACK *s) {
     //return the formerly top  value
     return val;
 }
+
+// Printer for svalue
+void print_svalue(SVALUE a){
+    printf("%d", a);
+}
+
+// Printer for stack
+void print_stack(STACK *s){
+    STACK temp;
+    temp = s;
+    while (temp != NULL){
+    SVALUE a;
+    a = pop_stack(&temp)
+    print_svalue(a);
+    }
+}
