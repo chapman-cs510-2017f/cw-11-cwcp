@@ -105,3 +105,25 @@ void print_matrix(const MATRIX *m) {
 }
 
 // Implementation for add_matrix goes below
+MATRIX add_matrix(const MATRIX *m, const MATRIX *n){
+    if (m.rows != n.rows || m.cols != n.cols) {
+    fprintf(stderr, "ERROR: matrices not  the same size");
+    return;
+  }
+    MATRIX a;
+    a = new_matrix(n.rows, n.cols);
+    int i;
+    int j;
+    for (i = 0; i<= n.rows; i++){
+        for (j = 0; j <= n.cols; j++){
+        MVALUE mm;
+        MVALUE nn;
+        mm = mget(m,i,j);
+        nn = mget(n, i, j);
+        MVALUE aa;
+        aa = mm + nn;
+        mset(&a,i,j, aa)
+        }
+
+    }
+}
