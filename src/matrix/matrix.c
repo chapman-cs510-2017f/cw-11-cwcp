@@ -93,8 +93,10 @@ void print_matrix(const MATRIX *m) {
   /* 
    * CODE GOES HERE
    */
+  int i;
+  int j;
   for (i =  0;i <= maxr ;i++){
-      for (j = 0, j <= maxc; j++){
+      for (j = 0; j <= maxc; j++){
           printf("%Lf\t", mget(m,i,j) );
       
       }
